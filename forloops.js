@@ -23,7 +23,6 @@ for (n = 0; n <= 10; n++) {
 // Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
 
 
-
 // EXERCISE: The Grade Assigner
 
 function assignGrade(grade) {

@@ -11,14 +11,3 @@
 
   console.log("My" + colours.forEach + " choice is " + colours.index + ".");
 }
-
-
-
-
-
-
-// function logArrayElements(element, index, array) {
-//   console.log('a[' + index + '] = ' + element);
-// }
-//
-// [2, 5, , 11].forEach(logArrayElements);
