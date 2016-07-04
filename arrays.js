@@ -7,7 +7,8 @@
 // Bonus: Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
 
 
-  var colours = ["red", "yellow", "blue", "pink", "green"];
+  var colours = ["Red", "Yellow", "Blue", "Pink", "Green", "Purple"]
 
-  console.log("My" + colours.forEach + " choice is " + colours.index + ".");
-}
+  for (i = 0; i < colours.length; i++) {
+    console.log("My #" + i + " favorite color is " + colours[i]);
+  };
