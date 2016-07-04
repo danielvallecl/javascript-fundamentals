@@ -30,7 +30,6 @@ tellFortune(3, "Radojka", "Toronto", "Full Stack Developer")
 // Call the function three times with different sets of values.
 // Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
 
-5
 function calculateAge(birth_year) {
   var today = new Date();
   var year = today.getFullYear();
@@ -115,3 +114,11 @@ calcArea(120)
 
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
+
+
+function celsiusToFahrenheit(temperature) {
+ celsius = (temperature - 32) * 5/9;
+ console.log("The temperature in celsius is " + Math.round(celsius));
+ }
+
+ celsiusToFahrenheit(90)

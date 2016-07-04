@@ -17,7 +17,6 @@ for (n = 0; n <= 10; n++) {
   console.log(n + " * 9 = " + result)
 }
 
-
 // Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18").
 
 // Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
@@ -40,10 +39,6 @@ function assignGrade(grade) {
 assignGrade(87)
 assignGrade(64)
 assignGrade(95)
-
-
-
-
 
 
 
